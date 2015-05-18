@@ -1,0 +1,1192 @@
+
+
+Started GET "/" for 68.98.179.207 at 2015-05-18 07:56:13 +0000
+
+RuntimeError (Cannot load `Rails.application.database_configuration`:
+Could not load database configuration. No such file - ):
+  railties (4.1.6) lib/rails/application/configuration.rb:105:in `database_configuration'
+  activerecord (4.1.6) lib/active_record/railtie.rb:128:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.1.6) lib/active_record/base.rb:326:in `<module:ActiveRecord>'
+  activerecord (4.1.6) lib/active_record/base.rb:23:in `<top (required)>'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:628:in `rescue in call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:619:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.9ms)
+
+
+Started GET "/" for 68.98.179.207 at 2015-05-18 07:58:44 +0000
+
+RuntimeError (Cannot load `Rails.application.database_configuration`:
+Could not load database configuration. No such file - ):
+  railties (4.1.6) lib/rails/application/configuration.rb:105:in `database_configuration'
+  activerecord (4.1.6) lib/active_record/railtie.rb:128:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.1.6) lib/active_record/base.rb:326:in `<module:ActiveRecord>'
+  activerecord (4.1.6) lib/active_record/base.rb:23:in `<top (required)>'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:628:in `rescue in call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:619:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (90.3ms)
+
+
+Started GET "/" for 68.98.179.207 at 2015-05-18 08:03:50 +0000
+
+RuntimeError (Cannot load `Rails.application.database_configuration`:
+Could not load database configuration. No such file - ):
+  railties (4.1.6) lib/rails/application/configuration.rb:105:in `database_configuration'
+  activerecord (4.1.6) lib/active_record/railtie.rb:128:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.1.6) lib/active_record/base.rb:326:in `<module:ActiveRecord>'
+  activerecord (4.1.6) lib/active_record/base.rb:23:in `<top (required)>'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:628:in `rescue in call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:619:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.8ms)
+
+
+Started GET "/" for 68.98.179.207 at 2015-05-18 08:04:07 +0000
+
+RuntimeError (Cannot load `Rails.application.database_configuration`:
+Could not load database configuration. No such file - ):
+  railties (4.1.6) lib/rails/application/configuration.rb:105:in `database_configuration'
+  activerecord (4.1.6) lib/active_record/railtie.rb:128:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.1.6) lib/active_record/base.rb:326:in `<module:ActiveRecord>'
+  activerecord (4.1.6) lib/active_record/base.rb:23:in `<top (required)>'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:628:in `rescue in call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:619:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.6ms)
+
+
+Started GET "/" for 68.98.179.207 at 2015-05-18 08:08:47 +0000
+
+RuntimeError (Cannot load `Rails.application.database_configuration`:
+Could not load database configuration. No such file - ):
+  railties (4.1.6) lib/rails/application/configuration.rb:105:in `database_configuration'
+  activerecord (4.1.6) lib/active_record/railtie.rb:128:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.1.6) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.1.6) lib/active_record/base.rb:326:in `<module:ActiveRecord>'
+  activerecord (4.1.6) lib/active_record/base.rb:23:in `<top (required)>'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:628:in `rescue in call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:619:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.2ms)
+
+
+Started GET "/" for 68.98.179.207 at 2015-05-18 08:10:31 +0000
+Processing by PhotoController#index as HTML
+  Rendered photo/_header.html.erb (0.2ms)
+  Rendered photo/_form.html.erb (0.8ms)
+  Rendered photo/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 268ms (Views: 252.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/docs.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/application.css?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/photo.css?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/photo.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:32 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 68.98.179.207 at 2015-05-18 08:10:55 +0000
+
+
+Started GET "/" for 68.98.179.207 at 2015-05-18 08:13:00 +0000
+Processing by PhotoController#index as HTML
+  Rendered photo/_header.html.erb (0.1ms)
+  Rendered photo/_form.html.erb (1.7ms)
+  Rendered photo/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 146ms (Views: 145.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/docs.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:13:00 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:00 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:13:00 +0000
+
+
+Started GET "/assets/photo.css?body=1" for 68.98.179.207 at 2015-05-18 08:13:00 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:00 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:00 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:00 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:00 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:00 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:00 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:00 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:00 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:00 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:01 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:01 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:01 +0000
+
+
+Started GET "/assets/photo.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:01 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:01 +0000
+
+
+Started GET "/assets/application.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:01 +0000
+
+
+Started GET "/photo/search?utf8=%E2%9C%93&search_input=&commit=Search%21" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+Processing by PhotoController#search as HTML
+  Parameters: {"utf8"=>"✓", "search_input"=>"", "commit"=>"Search!"}
+  Rendered photo/_header.html.erb (0.1ms)
+  Rendered photo/_form.html.erb (0.6ms)
+  Rendered photo/search.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 185ms (Views: 184.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/docs.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/photo.css?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/photo.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/assets/application.js?body=1" for 68.98.179.207 at 2015-05-18 08:13:05 +0000
+
+
+Started GET "/" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+Processing by PhotoController#index as HTML
+  Rendered photo/_header.html.erb (0.0ms)
+  Rendered photo/_form.html.erb (1.0ms)
+  Rendered photo/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 124ms (Views: 123.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/docs.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/photo.css?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.js?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/photo.js?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/assets/application.js?body=1" for 68.98.179.207 at 2015-05-18 08:14:49 +0000
+
+
+Started GET "/" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+Processing by PhotoController#index as HTML
+  Rendered photo/_header.html.erb (0.1ms)
+  Rendered photo/_form.html.erb (0.7ms)
+  Rendered photo/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 173ms (Views: 172.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/docs.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/photo.css?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/photo.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 68.98.179.207 at 2015-05-18 08:15:50 +0000
+
+
+Started GET "/photo/search?utf8=%E2%9C%93&search_input=%23jibe&commit=Search%21" for 68.98.179.207 at 2015-05-18 08:15:57 +0000
+Processing by PhotoController#search as HTML
+  Parameters: {"utf8"=>"✓", "search_input"=>"#jibe", "commit"=>"Search!"}
+Caching Flicker API results for: #jibe
+  Rendered photo/_header.html.erb (0.1ms)
+  Rendered photo/_form.html.erb (0.5ms)
+  Rendered photo/search.html.erb within layouts/application (14.0ms)
+Completed 500 Internal Server Error in 1277ms
+
+ActionView::Template::Error (can not load translations from /home/ubuntu/flickr_photo/flickr-demo/config/locales/database.yml: #<Errno::ENOENT: No such file or directory @ rb_sysopen - /home/ubuntu/flickr_photo/flickr-demo/config/locales/database.yml>):
+    18:   </div>
+    19: 
+    20:   <% if @results.any? %>
+    21:     <%= will_paginate @results, renderer: BootstrapPagination::Rails %>
+    22:   <% end %>
+    23: </div>
+  app/views/photo/search.html.erb:21:in `_app_views_photo_search_html_erb__1410087974961822602_55248700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.7ms)
+
+
+Started GET "/" for 68.98.179.207 at 2015-05-18 08:17:34 +0000
+Processing by PhotoController#index as HTML
+  Rendered photo/_header.html.erb (0.1ms)
+  Rendered photo/_form.html.erb (0.4ms)
+  Rendered photo/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 126ms (Views: 124.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/docs.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:17:36 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:17:36 +0000
+
+
+Started GET "/assets/application.css?body=1" for 68.98.179.207 at 2015-05-18 08:17:36 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:36 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:36 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:37 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:52 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:54 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:54 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:54 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:54 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:54 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:54 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:54 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:54 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:54 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:54 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:54 +0000
+
+
+Started GET "/assets/photo.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 68.98.179.207 at 2015-05-18 08:17:54 +0000
+
+
+Started GET "/assets/photo.css?body=1" for 68.98.179.207 at 2015-05-18 08:18:05 +0000
+
+
+Started GET "/" for 68.98.179.207 at 2015-05-18 08:18:31 +0000
+Processing by PhotoController#index as HTML
+  Rendered photo/_header.html.erb (0.0ms)
+  Rendered photo/_form.html.erb (1.0ms)
+  Rendered photo/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 109ms (Views: 108.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/docs.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:18:31 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:18:31 +0000
+
+
+Started GET "/assets/photo.css?body=1" for 68.98.179.207 at 2015-05-18 08:18:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 68.98.179.207 at 2015-05-18 08:18:31 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:31 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:31 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:31 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:31 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:31 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:31 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:31 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:32 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:32 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:32 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:32 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:32 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:32 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:32 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:32 +0000
+
+
+Started GET "/assets/photo.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 68.98.179.207 at 2015-05-18 08:18:32 +0000
+
+
+Started GET "/photo/search?utf8=%E2%9C%93&search_input=%23dawn&commit=Search%21" for 68.98.179.207 at 2015-05-18 08:18:36 +0000
+Processing by PhotoController#search as HTML
+  Parameters: {"utf8"=>"✓", "search_input"=>"#dawn", "commit"=>"Search!"}
+Caching Flicker API results for: #dawn
+  Rendered photo/_header.html.erb (0.1ms)
+  Rendered photo/_form.html.erb (0.5ms)
+  Rendered photo/search.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 572ms
+
+ActionView::Template::Error (can not load translations from /home/ubuntu/flickr_photo/flickr-demo/config/locales/database.yml: #<Errno::ENOENT: No such file or directory @ rb_sysopen - /home/ubuntu/flickr_photo/flickr-demo/config/locales/database.yml>):
+    18:   </div>
+    19: 
+    20:   <% if @results.any? %>
+    21:     <%= will_paginate @results, renderer: BootstrapPagination::Rails %>
+    22:   <% end %>
+    23: </div>
+  app/views/photo/search.html.erb:21:in `_app_views_photo_search_html_erb__1410087974961822602_70235299268540'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.4ms)
+
+
+Started GET "/" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+Processing by PhotoController#index as HTML
+  Rendered photo/_header.html.erb (0.0ms)
+  Rendered photo/_form.html.erb (0.5ms)
+  Rendered photo/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 122ms (Views: 121.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/docs.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/photo.css?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/application.css?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/photo.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/assets/application.js?body=1" for 68.98.179.207 at 2015-05-18 08:22:46 +0000
+
+
+Started GET "/photo/search?utf8=%E2%9C%93&search_input=%23dc&commit=Search%21" for 68.98.179.207 at 2015-05-18 08:22:54 +0000
+Processing by PhotoController#search as HTML
+  Parameters: {"utf8"=>"✓", "search_input"=>"#dc", "commit"=>"Search!"}
+Caching Flicker API results for: #dc
+  Rendered photo/_header.html.erb (0.0ms)
+  Rendered photo/_form.html.erb (0.3ms)
+  Rendered photo/search.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 361ms
+
+ActionView::Template::Error (can not load translations from /home/ubuntu/flickr_photo/flickr-demo/config/locales/database.yml: #<Errno::ENOENT: No such file or directory @ rb_sysopen - /home/ubuntu/flickr_photo/flickr-demo/config/locales/database.yml>):
+    18:   </div>
+    19: 
+    20:   <% if @results.any? %>
+    21:     <%= will_paginate @results, renderer: BootstrapPagination::Rails %>
+    22:   <% end %>
+    23: </div>
+  app/views/photo/search.html.erb:21:in `_app_views_photo_search_html_erb__1410087974961822602_70235299268540'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.6ms)
+
+
+Started GET "/" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+Processing by PhotoController#index as HTML
+  Rendered photo/_header.html.erb (0.1ms)
+  Rendered photo/_form.html.erb (0.4ms)
+  Rendered photo/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 135ms (Views: 134.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/docs.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/photo.css?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/application.css?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:20 +0000
+
+
+Started GET "/assets/application.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:21 +0000
+
+
+Started GET "/assets/photo.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:21 +0000
+
+
+Started GET "/" for 68.98.179.207 at 2015-05-18 08:24:26 +0000
+Processing by PhotoController#index as HTML
+  Rendered photo/_header.html.erb (0.1ms)
+  Rendered photo/_form.html.erb (0.5ms)
+  Rendered photo/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 112ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/docs.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:24:26 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:24:26 +0000
+
+
+Started GET "/assets/photo.css?body=1" for 68.98.179.207 at 2015-05-18 08:24:26 +0000
+
+
+Started GET "/assets/application.css?body=1" for 68.98.179.207 at 2015-05-18 08:24:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:26 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:26 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:26 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:26 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:26 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:26 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:26 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:26 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:26 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:26 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:26 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:27 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:27 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:27 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:27 +0000
+
+
+Started GET "/assets/photo.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:27 +0000
+
+
+Started GET "/assets/application.js?body=1" for 68.98.179.207 at 2015-05-18 08:24:27 +0000
+
+
+Started GET "/photo/search?utf8=%E2%9C%93&search_input=%23dctech&commit=Search%21" for 68.98.179.207 at 2015-05-18 08:24:33 +0000
+Processing by PhotoController#search as HTML
+  Parameters: {"utf8"=>"✓", "search_input"=>"#dctech", "commit"=>"Search!"}
+Caching Flicker API results for: #dctech
+  Rendered photo/_header.html.erb (0.0ms)
+  Rendered photo/_form.html.erb (0.4ms)
+  Rendered photo/search.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 340ms
+
+ActionView::Template::Error (can not load translations from /home/ubuntu/flickr_photo/flickr-demo/config/locales/database.yml: #<Errno::ENOENT: No such file or directory @ rb_sysopen - /home/ubuntu/flickr_photo/flickr-demo/config/locales/database.yml>):
+    18:   </div>
+    19: 
+    20:   <% if @results.any? %>
+    21:     <%= will_paginate @results, renderer: BootstrapPagination::Rails %>
+    22:   <% end %>
+    23:   </div>
+  app/views/photo/search.html.erb:21:in `_app_views_photo_search_html_erb__1410087974961822602_54964380'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.4ms)
+
+
+Started GET "/" for 68.98.179.207 at 2015-05-18 08:25:36 +0000
+Processing by PhotoController#index as HTML
+  Rendered photo/_header.html.erb (0.0ms)
+  Rendered photo/_form.html.erb (0.5ms)
+  Rendered photo/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 123ms (Views: 122.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/docs.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/application.css?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/photo.css?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/photo.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:37 +0000
+
+
+Started GET "/photo/search?utf8=%E2%9C%93&search_input=%23dctech&commit=Search%21" for 68.98.179.207 at 2015-05-18 08:25:44 +0000
+Processing by PhotoController#search as HTML
+  Parameters: {"utf8"=>"✓", "search_input"=>"#dctech", "commit"=>"Search!"}
+  Rendered photo/_header.html.erb (0.0ms)
+  Rendered photo/_form.html.erb (0.4ms)
+  Rendered photo/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 116ms (Views: 103.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/docs.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.css?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/photo.css?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/application.css?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/ekko-lightbox.min.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/photo.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/application.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 68.98.179.207 at 2015-05-18 08:25:45 +0000
